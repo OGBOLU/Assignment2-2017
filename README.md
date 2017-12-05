@@ -45,41 +45,69 @@ Every guest will have the right of recommending one song for the party.
   * List animal needs by specie name
 
 ## Grading:
-  On a scale of 10  (yeap, 2 extra points)
-  * Classes correctly implementing inheritance (3)
+  On a scale of 10
+  * Classes correctly implementing OO concepts (3)
   * Guest adding and removing (2)    
-  * List of played songs (2)
-  * Working menu (2)
+  * List of played songs (1)
+  * Working menu (1)
   * Song sorting (1)  
   * Song removing after sorting (1)
   * Verification of unique names before adding(1)
 
+**Extra Points**
+You can get extra-points by implementing one of the following libraries:
+* File Input **AND** File Output (write and read at least one group from records and fill Array):   https://docs.oracle.com/javase/7/docs/api/java/io/FileOutputStream.html
+https://docs.oracle.com/javase/7/docs/api/java/io/FileInputStream.html
+* JUnit (at least 5 meaningfull test cases)
+http://junit.org/junit5/
+* Proposed Libraries, feel free to suggest new libraries, for it send an e-mail with the planned implementation of the library.
+
+
 What makes you loose points:
-  * Wrong OOP practices
-  * Untreated exceptions
-  * Wrong OOP practices
-  * Not completed code
-  * Wrong OOP practices
-  * Wrong object or variable scope
-  * Wrong OOP practices
+  * Untreated exceptions, Important: Simply skipping does not count as a treated exception, you need to keep your user informed about what he needs to do and your software should not crash.
+  * Not completed code  
+  * Wrong object or variable scope  
   * Direct access to object variables
   * Wrong OOP practices
+  * User unfriendly or trapped code
+
 
 
 ## Assignment Requirements
-  * This is an individual assignment
-  * In case of copied work, both students have zero grade
+  * This is an individual assignment;
+  * The assignment can be done in two people in case the students choose to implement the extra-points;
+  * plagiarism will be graded with zero and may be subject of sanctions given by ELTE regulations;
   * Indentation and readable code matters
-  * It is requested to implement at least one inheritance
-  * There is not a strict manner of implementation, use the Java Language capabilities on the best way you can.
+  * It is requested to implement at least one Interface and one Abstract class (and it must make sense)
+  * There is not a strict manner of implementation, use the Java Language capabilities on the best way you can;
+  * The students may be requested to give further explanations regarding the implementation in order to get the grade (regarding specially the understanding of the OO concepts).
 
 
 ## Recommendations
 
 There is no need to follow it here, but here we will have some recommendations to make it easier.
-
 * Implement Flying, Land and Swimming animals in different classes inheriting a generic class animal, where you define the general animal characteristics;
-
 * Implement the menu inside a switch case implementation inside a do while loop;
-
 * Put all the animals into an ArrayList
+
+## Deadlines
+* Feedbacks:
+
+
+## FAQ:
+I couldn't make it, I was traveling:
+I'm so sorry...
+
+I couldn't make it, I had other exams:
+I'm so sorry...
+
+
+
+# VERY IMPORTANT
+* There will be no extension of deadline without justification of force majeure, **NO EXCEPTION**;
+* Feedbacks will be given until one week prior the deadline again, NO EXCEPTION;
+* Code organization, packages structure, usability and naming are also part of this course;
+* There will be no feedback over not-compiling code.
+* A code that doesn't compile from the command line (due to IDE, syntax error or whichever error...) will worth 50% of the grade.
+
+![No IDE](https://i.imgur.com/30o1Lqc.jpg)
