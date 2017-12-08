@@ -91,21 +91,14 @@ There is no need to follow it here, but here we will have some recommendations t
 * Put all the animals into an ArrayList
 
 ## Deadlines
-* Feedbacks:
-
-
-## FAQ:
-I couldn't make it, I was traveling:
-I'm so sorry...
-
-I couldn't make it, I had other exams:
-I'm so sorry...
+* Last day to submission: 14th of January 2017
+* Last day to request feedback: 7th of January 2017
 
 
 
 # VERY IMPORTANT
 * There will be no extension of deadline without justification of force majeure, **NO EXCEPTION**;
-* Feedbacks will be given until one week prior the deadline again, NO EXCEPTION;
+* Feedbacks will be given until one week prior the deadline;
 * Code organization, packages structure, usability and naming are also part of this course;
 * There will be no feedback over not-compiling code.
 * A code that doesn't compile from the command line (due to IDE, syntax error or whichever error...) will worth 50% of the grade.
