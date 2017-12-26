@@ -20,7 +20,7 @@ Every guest will have the right of recommending one song for the party.
   * Check if a guest is allowed by its name
   * Check which are the needs by animal name (e.g. Simba) or specie name (e.g. Lion)
 * Zazu may:
-  * Sort a song
+  * Pick a random song
   * Check which songs were already played
 
 
@@ -29,7 +29,7 @@ Every guest will have the right of recommending one song for the party.
 * The needs are particular for the specie and not for the particular animal, e.g. Turtles need a fresh tank of water for every now and then.
 * The name of the animal is unique.
 * The same menu is shown to all users, there is no need of implementing its use cases separated
-* Exceptions need to be handled (e.g. when there is no more songs on the list and the user asks to sort a new one)
+* Exceptions need to be handled (e.g. when there is no more songs on the list and the user asks to pick a new one)
 * According to the arrival mode, the animals have different needs:
   * Flying: The extension of its wings
   * Swimming: Where the animal will come from (sea or river)
@@ -38,7 +38,7 @@ Every guest will have the right of recommending one song for the party.
 * The system should have the following menu items:
   * Register guest (where you can register all the guest information)
   * Remove a guest (the system asks the name and deletes the user)
-  * Sort a song (after sorted the song goes automatically for the list of played songs)
+  * Pick a song (after selection the song goes automatically for the list of played songs)
   * List played songs
   * Check if an animal is on the Guest list
   * List animal needs by animal name
@@ -50,7 +50,7 @@ Every guest will have the right of recommending one song for the party.
   * Guest adding and removing (2)    
   * List of played songs (1)
   * Working menu (1)
-  * Song sorting (1)  
+  * Song random selection (1)  
   * Song removing after sorting (1)
   * Verification of unique names before adding(1)
 
